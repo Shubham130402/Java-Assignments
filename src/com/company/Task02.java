@@ -3,9 +3,47 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task02{
+    /* 3D array modifying and display by using method
+    public static void displayarray(int[][][] arr) {
+
+        for(int[][] i:arr){
+            System.out.println("the grandparent no is" + i);
+            for(int[] j:i){
+                System.out.println("the parent no is" + j);
+                {
+                    for(int k:j){
+                        System.out.print(k + " ");
+                    }
+                    System.out.println();
+
+                }
+            }
+        }
+
+    }
+   */
     public static void main (String[] args){
+
         //Third Practice Program for 3D array
-        int[][][] arr =new int[2][3][2];   //declare the 3D array
+        /*int[][][] arr =new int[1][2][2];   //declare the 3D array
+        //initializing the array value
+        arr[0][0][0]=  1;
+        arr[0][0][1]=  2;
+        arr[0][1][0]=  3;
+        arr[0][1][1]=  4;
+        //displaying the 3D array
+        System.out.println("the three dimensional array is:");
+        displayarray(arr);
+        //modifying some values
+        arr[0][0][1]= 111 ;
+        arr[0][1][0]=  223;
+        //displaying the 3D array after modifying
+        System.out.println("3D array after modifying ");
+        displayarray(arr);
+        //method to display 3D array
+
+         */
+
 
         /*
         Second program for 3D array
@@ -79,4 +117,7 @@ public class Task02{
         */
         }
 
-        }
+
+
+
+}
