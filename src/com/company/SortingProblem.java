@@ -1,13 +1,36 @@
 package com.company;
 
 import java.util.Arrays;
-
+/*
 public class SortingProblem {
-    public static void main(String[] args) {
+    // Cyclic Sorting Algorithm
+    // in the [0-N] or [1-N] like problem and numbers are unique.
+    // sorting with comparison by indexes
 
+    public static void main(String[] args) {
+        int[] arr = {2, 3,1,0,5,4}; // in [0-4] array
+        sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+        static void sort ( int[] arr){
+            int i = 0;
+            while (i < arr.length) {
+                int correct = arr[i];
+                if (arr[i] != arr[correct]) {
+                    cyclicsort(arr, i, correct);
+                } else {
+                    i++;
+                }
+            }
+
+        }
+    public static void cyclicsort(int[] arr, int first, int second){
+        int temp = arr[first];
+        arr[first] = arr[second];
+        arr[second]= temp;
     }
 }
-        /*
+        /* public static void main(String[] args) {
         int[] arr = {2,4,8,6,4,6,6,2,4245,98,9};
         for(int i=0;i< arr.length;i++) {
 
@@ -70,6 +93,8 @@ public class SortingProblem {
 
 
     }
+
+
 }
 
  */
